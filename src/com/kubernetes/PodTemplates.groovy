@@ -10,7 +10,7 @@ public void dockerTemplate(body) {
 
 public void mavenTemplate(body) {
   podTemplate(
-        containers: [containerTemplate(name: 'maven', image: 'maven', command: 'sleep', args: '99d')]
+        containers: [containerTemplate(name: 'maven', image: 'maven', command: 'sleep', args: '99d')] {
     body.call()
 }
 }
