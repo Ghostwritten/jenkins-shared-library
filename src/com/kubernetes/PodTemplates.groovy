@@ -1,4 +1,4 @@
-package com.ghostwritten.PodTemplate
+package com.ghostwritten.PodTemplates
 
 public void dockerTemplate(body) {
   podTemplate(
